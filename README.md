@@ -258,4 +258,17 @@ To avoid ongoing charges, remove resources in this order once you're done:
 - **Libreswan:** An open-source IPSec VPN implementation used here to simulate a real on-prem VPN router
 
 ---
+
+## Author
+
+**Sinsha C**
+ 
+## Connect
+
+If you're on a similar DevOps learning journey, feel free to connect or follow along:
+
+[![GitHub](https://img.shields.io/badge/GitHub-sinsha--c-181717?style=flat&logo=github&logoColor=white)](https://github.com/sinsha-c)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sinshac-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sinshac)
+
+---
 *Based on a hands-on lab exercise for practicing AWS Site-to-Site VPN concepts using Libreswan.*
