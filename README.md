@@ -12,7 +12,7 @@ This project simulates a **Site-to-Site VPN connection** between an AWS VPC and 
 
 ## Architecture Overview
 
-<img src="docs/architecture-diagram.png" alt="Architecture diagram showing AWS-VPC (Mumbai) connected to DC-VPC (N.Virginia) via VGW, IPSec tunnel, and a Libreswan VPN Server" width="800">
+<img src="docs/Architecture-diagram.png" alt="Architecture diagram showing AWS-VPC (Mumbai) connected to DC-VPC (N.Virginia) via VGW, IPSec tunnel, and a Libreswan VPN Server" width="800">
 
 To simulate a real-world scenario without needing physical on-prem hardware, this lab uses **two AWS regions**:
 
