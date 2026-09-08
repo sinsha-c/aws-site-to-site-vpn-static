@@ -180,10 +180,10 @@ sudo systemctl status ipsec.service
  - **How to add it:** go to EC2-B's subnet route table → **Edit routes** → **Add route** → Destination: `10.0.0.0/16` → Target dropdown: select **Network Interface**, then choose the DC-VPN Server's ENI from the list (confirm the ID matches by running `ip addr show` on the DC-VPN Server — it appears as an `altname`, e.g. `eni-xxxxxxxx`) → **Save changes**
 
 *Source/Destination check disabled on DC-VPN Server and EC2-B route table updated*
-<img src="screenshots/09-source-dest-check-disabled.png" alt="Source/Destination check disabled on DC-VPN Server and EC2-B route table updated" width="700">
+<img src="screenshots/09-source-dest-check-disabled.png" alt="Source/Destination check disabled on DC-VPN Server and EC2-B route table updated">
 
 *Ping successfull from DC-VPN Server to EC2A AWS server*
-<img src="screenshots/10-Ping-VPNserver-to-EC2A.png" alt="Ping successfull from DC-VPN Server to EC2A AWS server" width="700">
+<img src="screenshots/10-Ping-VPNserver-to-EC2A.png" alt="Ping successfull from DC-VPN Server to EC2A AWS server">
 
 ### Step 9: Test end-to-end connectivity
 - SSH into EC2-B via the DC-VPN Server (as a jump host). EC2-B has no public IP, so you can't reach it directly from your laptop 
